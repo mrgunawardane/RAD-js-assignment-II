@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' sans-serif;
+}
+body{
+    background: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 450px;
+    height: 300px;
+    background: #fff;
+    margin-top: 100px;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.16);
+}
+#nowt{
+    font-size: x-large;
+    padding: 10px 0 0 75px;
+}
+#remaint{
+    background: #f1f1f1;
+    width: max-content;
+    padding: 20px;
+    font-size: large;
+    font-weight: 600;
+    border-radius: 10px;
+    box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16);
+    margin: 40px 0 0 75px;
+}

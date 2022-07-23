@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 10</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form">
+        <div class="ans">
+            <p class="result">0</p>
+        </div>
+        <div class="operators">
+            <button type="button" onclick="getAdd()">+</button>
+            <button type="button" onclick="getSub()">-</button>
+            <button type="button" onclick="getMul()">x</button>
+            <button type="button" onclick="getDiv()">&#247;</button>
+        </div>
+        <div class="numbers">
+            <div class="first">
+                <button type="button" onclick="put7()" id="7">7</button>
+                <button type="button" onclick="put8()" id="8">8</button>
+                <button type="button" onclick="put9()" id="9">9</button>
+                <button onclick="getResult()" class="equal" id="equal">=</button>
+            </div>
+            <div class="second">
+                <button type="button" onclick="put4()" id="4">4</button>
+                <button type="button" onclick="put5()" id="5">5</button>
+                <button type="button" onclick="put6()" id="6">6</button>
+                
+            </div>
+            <div class="third">
+                <button type="button" onclick="put1()" id="1">1</button>
+                <button type="button" onclick="put2()" id="2">2</button>
+                <button type="button" onclick="put3()" id="3">3</buttonp>
+            </div>
+            <div class="fourth">
+                <button type="button" onclick="put0()" id="0">0</button>
+                <button type="button" onclick="putDot()" id="dot">.</button>
+                <button type="button" onclick="getClear()" id="ac">AC</button>
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
